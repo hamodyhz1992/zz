@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://www.raed.net/img?id=1118045.jpg'); /* استبدل هذا بالرابط الخاص بالصورة التي تريد استخدامها */
+    background-size: cover;
+    background-position: center;
+}
+
+canvas {
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.8); /* لون خلفية خفيف للكانفاس */
+}
+
+.controls {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin: 10px; /* زيادة المسافة بين الأزرار */
+    padding: 10px;
+    font-size: 20px;
+}
+
+.control-row {
+    display: flex;
+    justify-content: center;
+}
